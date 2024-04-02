@@ -5,10 +5,11 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Components/Home';
 import Nav from './Components/Nav';
 
+import '../src/Assets/css/About.css'
 
 
 function App() {
-
+ 
   return (
     <div>
       <BrowserRouter>
@@ -20,7 +21,6 @@ function App() {
 
         </Routes>
       </BrowserRouter>
-      <Nav />
     </div>
   );
 }
