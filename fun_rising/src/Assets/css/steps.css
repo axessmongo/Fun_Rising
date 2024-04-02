@@ -1,0 +1,36 @@
+.step-bg{
+    background-image: url(../img/step\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+#step-bg-color{
+    background-color: rgba(39, 89, 171, 0.878);
+    height: 100%;
+    width: 100%;
+
+}
+.tittle{
+    font: 700 40px / 50px "Nunito", sans-serif;
+    color: #f59019;
+    line-height: 1.5em;
+}
+.font-style{
+    font-family:600 20px/28px "Nunito", sans-serif;
+}
+.font-color{
+    color:#2759ab;
+}
+.button-color{
+    background-color: #5577b8;
+}
+.cards{
+    border-radius: 0px 0px 40px 0px;
+    height: 100%;
+}
+.bg-primary:hover{
+    background-color: orange !important;
+}
