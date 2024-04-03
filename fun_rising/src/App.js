@@ -1,11 +1,10 @@
 import './App.css';
 import '../src/Assets/css/Nav.css'
+import '../src/Assets/css/steps.css'
+import '../src/Assets/css/About.css'
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Home from './Components/Home';
-import Nav from './Components/Nav';
-
-
 
 function App() {
 
@@ -14,13 +13,9 @@ function App() {
       <BrowserRouter>
         <Routes>
           {/* <Route path='/' element={<Home />} /> */}
-
-
-
-
         </Routes>
       </BrowserRouter>
-      <Nav />
+      <Home />
     </div>
   );
 }
