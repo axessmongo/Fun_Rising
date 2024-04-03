@@ -25,7 +25,7 @@ export default function Contactus() {
                             <h2 className="text-center mb-4 linear-gradient-text">
             Customer Enquiry Form</h2>
                             <form id="contactForm" name="contactForm" onSubmit={handleSubmit}>
-                                <div className="form-floating">
+                                <div className="form-floating pt-3">
                                     <input
                                         type="text"
                                         className="form-control"
@@ -36,7 +36,7 @@ export default function Contactus() {
                                     />
                                     <label htmlFor="name">Name <span className="text"> *</span></label>
                                 </div>
-                                <div className="form-floating">
+                                <div className="form-floating pt-3">
                                     <input
                                         type="email"
                                         className="form-control"
@@ -47,7 +47,7 @@ export default function Contactus() {
                                     />
                                     <label htmlFor="email">Email <span className="text"> *</span></label>
                                 </div>
-                                <div className="form-floating">
+                                <div className="form-floating pt-3">
                                     <input
                                         type="number"
                                         className="form-control"
@@ -60,7 +60,7 @@ export default function Contactus() {
                                     />
                                     <label htmlFor="phone">Phone Number <span className="text"> *</span></label>
                                 </div>
-                                <div className="form-floating">
+                                <div className="form-floating pt-3">
                                     <textarea
                                         className="form-control"
                                         name="message"
