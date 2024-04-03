@@ -12,7 +12,7 @@ function About() {
     return (
         <>
             <section>
-                <div className='container-fluid'>
+                <div className='container'>
                     <div className='row py-5'>
                         <div className='col-md-6'>
                             <div>
@@ -22,13 +22,13 @@ function About() {
                         <div className='col-md-6'>
                             <div className=''>
                                 <div>
-                                    <h1 className='font-head pt-3'>About</h1>
+                                    <h1 className='font-head'>About</h1>
                                     <h5 className='pt-2 font-subhead'>We operate our banking services in all over chennai.</h5>
-                                    <p className='pt-3'>Established in the year 2017, Fund Finder in Chennai, We are top player in the category Personal loan, Business loan, Loan against Property and Home Loans arranging with all private and nationalized banks in Chennai.</p>
-                                    <div className='py-3 text-center'> <button className='about-bt'>Call Now: xxxxx xxxxx</button></div>
+                                    <p className='pt-2'>Established in the year 2017, Fund Finder in Chennai, We are top player in the category Personal loan, Business loan, Loan against Property and Home Loans arranging with all private and nationalized banks in Chennai.</p>
+                                    <div className='py-2 text-center'> <button className='about-bt'>Call Now: xxxxx xxxxx</button></div>
 
                                 </div>
-                                <div className='pt-3'>
+                                <div className='pt-2'>
                                     <img src={About2} alt="" className='img-fluid w-50' />
                                 </div>
                             </div>
