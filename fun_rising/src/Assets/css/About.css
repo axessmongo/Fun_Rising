@@ -1,0 +1,27 @@
+.about-bt {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f59019;
+    color: white;
+}
+.about-bt:hover{
+   background-color: #2759ab;
+}
+.font-head{
+    font: "Nunito", sans-serif;
+    color: #f59019;
+}
+.font-subhead{
+    font: "Source Sans Pro", sans-serif;
+    color: #2759ab;
+}
+.card-about{
+    background-color: rgb(252, 247, 247);
+}
+.zooming{
+    transition: transform 0.3s ease-in-out;
+}
+.zooming:hover{
+    transform: scale(.9);
+}

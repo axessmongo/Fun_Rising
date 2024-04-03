@@ -7,7 +7,8 @@ import Home from './Components/Home';
 import Nav from './Components/Nav';
 import Contact from './Components/Contact';
 import Contactus from './Components/Contactus';
-
+import '../src/Assets/css/steps.css'
+import '../src/Assets/css/About.css'
 
 
 function App() {
@@ -16,12 +17,13 @@ function App() {
     <div>
       <BrowserRouter>
         <Routes>
-          {/* <Route path='/' element={<Home />} /> */}
-           <Route path='contact' element={<Contact />} /> 
-           {/* <Route path='contact' element={<Contactus />} /> */}
+         {/* <Route path='/' element={<Contact/>}/> */}
         </Routes>
       </BrowserRouter>
-      {/* <Nav /> */}
+    
+      <Home />
+      <Contact/>
+      <Contactus/>
     </div>
   );
 }
