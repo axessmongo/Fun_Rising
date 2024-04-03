@@ -7,7 +7,7 @@ import step4 from "../Assets/img/step-4.png";
 function Steps() {
   return (
     <div>
-      <section className="step-bg">
+      <section className="step-bg mt-5">
         <div id="step-bg-color" className="p-3">
           <div className="container">
             <h2 className="pt-5 tittle">
