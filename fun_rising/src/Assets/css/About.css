@@ -2,11 +2,11 @@
     padding: 10px;
     border: none;
     border-radius: 10px;
-    background-color: #f59019;
+    background-color: #7039eb;
     color: white;
 }
 .about-bt:hover{
-   background-color: #2759ab;
+   background-color: orange;
 }
 .font-head{
     font: "Nunito", sans-serif;

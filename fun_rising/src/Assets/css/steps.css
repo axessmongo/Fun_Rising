@@ -31,6 +31,9 @@
     border-radius: 0px 0px 40px 0px;
     height: 100%;
 }
-.bg-primary:hover{
+.btn-bg:hover{
     background-color: orange !important;
+}
+.btn-bg{
+    background-color: 	#5F9EA0 !important;
 }
