@@ -7,7 +7,7 @@ import step4 from "../Assets/img/step-4.png";
 function Steps() {
   return (
     <div>
-      <section className="step-bg">
+      <section className="step-bg mt-5">
         <div id="step-bg-color" className="p-3">
           <div className="container">
             <h2 className="pt-5 tittle">
@@ -26,7 +26,7 @@ function Steps() {
                       Contact us first Reach us @ 73973 12482
                     </p>
                     <div className="justify-content-center d-flex pt-5">
-                      <button className="py-2 px-3 border-0 bg-primary rounded-3 text-white font-style button-color ">
+                      <button className="py-2 px-3 border-0 btn-bgrounded-3 text-white font-style button-color ">
                         Apply Now
                       </button>
                     </div>
@@ -42,7 +42,7 @@ function Steps() {
                       Consult with us We'll ask you all the right questions
                     </p>
                     <div className="justify-content-center d-flex pt-3">
-                      <button className="py-2 px-3 border-0 bg-primary rounded-3 text-white font-style button-color ">
+                      <button className="py-2 px-3 border-0 btn-bgrounded-3 text-white font-style button-color ">
                         Apply Now
                       </button>
                     </div>
@@ -58,7 +58,7 @@ function Steps() {
                       Submit your documents. We wil finalize your loan Amount
                     </p>
                     <div className="justify-content-center d-flex ">
-                      <button className="py-2 px-3 border-0 bg-primary rounded-3 text-white font-style button-color ">
+                      <button className="py-2 px-3 border-0 btn-bgrounded-3 text-white font-style button-color ">
                         Apply Now
                       </button>
                     </div>
@@ -75,7 +75,7 @@ function Steps() {
                       happy clients
                     </p>
                     <div className="justify-content-center d-flex ">
-                      <button className="py-2 px-3 border-0 bg-primary rounded-3 text-white font-style button-color ">
+                      <button className="py-2 px-3 border-0 btn-bgrounded-3 text-white font-style button-color ">
                         Apply Now
                       </button>
                     </div>
