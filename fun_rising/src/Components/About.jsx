@@ -20,15 +20,15 @@ function About() {
                             </div>
                         </div>
                         <div className='col-md-6'>
-                            <div className=''>
                                 <div>
+                            <div className=''>
                                     <h1 className='font-head'>About</h1>
                                     <h5 className='pt-2 font-subhead'>We operate our banking services in all over chennai.</h5>
                                     <p className='pt-2'>Established in the year 2017, Fund Finder in Chennai, We are top player in the category Personal loan, Business loan, Loan against Property and Home Loans arranging with all private and nationalized banks in Chennai.</p>
                                     <div className='py-2 text-center'> <button className='about-bt'>Call Now: xxxxx xxxxx</button></div>
 
-                                </div>
                                 <div className='pt-2'>
+                                </div>
                                     <img src={About2} alt="" className='img-fluid w-50' />
                                 </div>
                             </div>
@@ -95,6 +95,7 @@ function About() {
                                     <div className='zooming'>
                                         <img src={service4} alt="" className='img-fluid' />
                                     </div>
+                                    
                                     <div className='p-3 text-center'>
                                         <h2 className='py-2 font-head'>Loan against property</h2>
                                         <p className='font-subhead'>We always ready to help you as we understand your needs we can help you to render loan against property at low interest in chennai as in today’s scenario we never know when we required money it can be any reason.</p>
