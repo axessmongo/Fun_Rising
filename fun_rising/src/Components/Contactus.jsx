@@ -9,13 +9,12 @@ export default function Contactus() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-       
+
     };
 
     return (
         <div>
-            <p> changes</p>
-            <div className="container mt-5">
+            <div className="container mt-5" id='contact'>
                 <div className="row">
                     <div className="col-md-5 mt-3">
                         <div
@@ -24,7 +23,7 @@ export default function Contactus() {
                             data-aos-duration="700"
                         >
                             <h2 className="text-center mb-4 linear-gradient-text">
-            Customer Enquiry Form</h2>
+                                Customer Enquiry Form</h2>
                             <form id="contactForm" name="contactForm" onSubmit={handleSubmit}>
                                 <div className="form-floating pt-3">
                                     <input
@@ -99,72 +98,72 @@ export default function Contactus() {
                 </div>
             </div>
 
-            <div>
-            <footer>
-        <div class="container">
-            <div class="row justify-content-between">
-                <div data-aos="zoom-in" data-aos-duration="700" data-aos-anchor-placement="bottom-bottom">
-                    <a class="navbar-brand nav-logo d-inline-flex align-items-center mb-4" href="index.html">
-                        <img src="assets/imagesandvectors/logonew.png" alt="" />
-                        <p class="m-0 nav-text">Sonikka</p>
-                    </a>
-                </div>
-                <div class="col-12 col-md-5 col-lg-4">
-                    <p class="footer-text text-white mb-3" data-aos="fade-up" data-aos-duration="600"
-                        data-aos-anchor-placement="bottom-bottom">
-                        © 2022 All rights reserved by Fund Finder Developed by B2B IT Solutions
-                    </p>
-                </div>
-                <div class="col-12 col-md-5 col-lg-4 text-md-end footer-contact" data-aos="fade-up"
-                    data-aos-duration="600" data-aos-anchor-placement="bottom-bottom">
-                    <div class="mb-1">
-                        <a href="https://maps.app.goo.gl/JbM1k4azSpY4E9Rm9" target="_blank"
-                            class="text-white footer-text">
-                            <i class="bi bi-geo-alt-fill pe-2"></i>
-                            GF-04, TIDEL Park, 4, Rajiv Gandhi Salai,<span class="d-none d-lg-block"></span> Tharamani,
-                            Chennai-600113
-                        </a>
-                    </div>
-                    <div class="mb-1">
-                        <a href="tel:9150051050" target="_blank" class="text-white footer-text">
-                            <i class="bi bi-telephone-fill pe-2"></i>
-                            +91 91500 55555
-                        </a>
-                    </div>
-                    <div class="mb-1">
-                        <a href="tel:7200317222" target="_blank" class="text-white footer-text">
-                            <i class="bi bi-telephone-fill pe-2"></i>
-                            +91 72003 00000
-                        </a>
-                    </div>
-                    <div>
-                        <a href="mailto:info@sonikkapromoters.com" target="_blank" class="text-white footer-text">
-                            <i class="bi bi-envelope pe-2"></i>
-                            info@funding.com
-                        </a>
-                    </div>
-                </div>
-                <div class="col-12 mx-auto border-bottom footer-border border-3 mt-4 mb-5" data-aos="fade"
-                    data-aos-duration="600"></div>
+            <div className='pt-5'>
+                <footer>
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div data-aos="zoom-in" data-aos-duration="700" data-aos-anchor-placement="bottom-bottom">
+                                <a class="navbar-brand nav-logo d-inline-flex align-items-center mb-4" href="index.html">
+                                    <img src="assets/imagesandvectors/logonew.png" alt="" />
+                                    <p class="m-0 nav-text text-white">Company Logo</p>
+                                </a>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-4">
+                                <p class="footer-text text-white mb-3" data-aos="fade-up" data-aos-duration="600"
+                                    data-aos-anchor-placement="bottom-bottom">
+                                    © 2022 All rights reserved by Fund Finder Developed by B2B IT Solutions
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-5 col-lg-4 text-md-end footer-contact" data-aos="fade-up"
+                                data-aos-duration="600" data-aos-anchor-placement="bottom-bottom">
+                                <div class="mb-1">
+                                    <a href="https://maps.app.goo.gl/JbM1k4azSpY4E9Rm9" target="_blank"
+                                        class="text-white footer-text">
+                                        <i class="bi bi-geo-alt-fill pe-2"></i>
+                                        GF-04, TIDEL Park, 4, Rajiv Gandhi Salai,<span class="d-none d-lg-block"></span> Tharamani,
+                                        Chennai-600113
+                                    </a>
+                                </div>
+                                <div class="mb-1">
+                                    <a href="tel:9150051050" target="_blank" class="text-white footer-text">
+                                        <i class="bi bi-telephone-fill pe-2"></i>
+                                        +91 91500 55555
+                                    </a>
+                                </div>
+                                <div class="mb-1">
+                                    <a href="tel:7200317222" target="_blank" class="text-white footer-text">
+                                        <i class="bi bi-telephone-fill pe-2"></i>
+                                        +91 72003 00000
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="mailto:info@sonikkapromoters.com" target="_blank" class="text-white footer-text">
+                                        <i class="bi bi-envelope pe-2"></i>
+                                        info@funding.com
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-12 mx-auto border-bottom footer-border border-3 mt-4 mb-5" data-aos="fade"
+                                data-aos-duration="600"></div>
 
-                <div class="d-flex justify-content-center mb-3" data-aos="fade-up" data-aos-duration="800"
-                    data-aos-anchor-placement="bottom-bottom">
-                    <a class="d-block nav-link primary-text footer-link" target="_blank"
-                        href="https://www.linkedin.com/in/asecfire/"><i class="bi bi-facebook"></i>
-                    </a>
+                            <div class="d-flex justify-content-center mb-3" data-aos="fade-up" data-aos-duration="800"
+                                data-aos-anchor-placement="bottom-bottom">
+                                <a class="d-block nav-link primary-text footer-link" target="_blank"
+                                    href="https://www.linkedin.com/in/asecfire/"><i class="bi bi-facebook"></i>
+                                </a>
 
-                    <a class="d-block nav-link primary-text footer-link mx-3" target="_blank"
-                        href="https://twitter.com/asec_fire"><i class="bi bi-twitter"></i>
-                    </a>
-                    <a class="d-block nav-link primary-text footer-link" target="_blank"
-                        href="https://plus.google.com/u/0/106652385634310929480"><i class="bi bi-instagram"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-       
-       
-    </footer>
+                                <a class="d-block nav-link primary-text footer-link mx-3" target="_blank"
+                                    href="https://twitter.com/asec_fire"><i class="bi bi-twitter"></i>
+                                </a>
+                                <a class="d-block nav-link primary-text footer-link" target="_blank"
+                                    href="https://plus.google.com/u/0/106652385634310929480"><i class="bi bi-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </footer>
             </div>
         </div>
     );

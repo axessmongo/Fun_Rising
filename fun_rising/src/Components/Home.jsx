@@ -50,7 +50,7 @@ export default function Home() {
     <div>
       <div className="overflow-x-hidden">
         <div className="">
-          <div className="header_top_area">
+          {/* <div className="header_top_area">
             <div className="container">
               <div className="header_top_inner row m-0">
                 <ul className="top_menu col-lg-6 col-md-7 p-0">
@@ -87,11 +87,51 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
+          {/* navbar sec */}
+          <section className='nav-school'>
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand text-light fs-1" href="#">Fun<span style={{ color: "orange" }}>Rising</span></a>
+                <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-4  p-4 mb-lg-0 text-center ">
+
+                    <li class="nav-item">
+                      <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('home')} >Home</a>
+                    </li>
+
+                    <li class="nav-item ">
+                      <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('about')}>About</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('process')}>Process</a>
+                    </li>
+
+                    {/* <li class="nav-item">
+                      <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('extra')}>Extra Activities</a>
+                    </li> */}
+
+                    <li class="nav-item border-end">
+                      <a class="nav-link active px-3" aria-current="page" id='name-nav' onClick={() => gotoTop('contact')}>Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </section>
+
+
           <div>
             <img src={nav1} alt="nav1" />
           </div>
-          <header className="main_header_area">
+
+          {/* <header className="main_header_area">
             <div className="container">
               <div className="header_menu">
                 <nav class="navbar navbar-expand-lg fixed-top">
@@ -156,7 +196,10 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </header>
+          </header> */}
+
+
+
         </div>
         <section className="achieve_financial_area">
           <div className="container">
@@ -271,6 +314,8 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      {/* about sec */}
       <section>
         <div className="container" id="about">
           <div className="row py-5">

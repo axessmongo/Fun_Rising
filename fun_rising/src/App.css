@@ -1,0 +1,17 @@
+#name-nav{
+    font-size: 20px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #name-nav:hover{
+    color: orange;
+    border-left: 3px solid orange;
+    /* border-right: 3px solid orange; */
+    border-radius: 50px;
+  }
+  .nav-school{
+    position: fixed;
+    z-index: 909090;
+    width: 100%;
+    background-color:#170342eb;
+  }
